@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "local-mcp",
+  "version": "0.1.0",
+  "description": "Connects Hermes to a separately installed LMCP app, so the agent can work with Mail, Calendar, Teams, Slack, Microsoft 365, Office files, a logged-in browser and the terminal on your Mac. Includes a skill for scoping tools on unattended jobs.",
+  "author": {"name": "Colibird", "url": "https://local-mcp.com"},
+  "homepage": "https://local-mcp.com",
+  "repository": "https://github.com/colibird-ai/local-mcp-hermes-plugin",
+  "license": "MIT",
+  "keywords": ["mcp", "macos", "mail", "calendar", "teams", "microsoft-365", "browser", "productivity"]
+}
+

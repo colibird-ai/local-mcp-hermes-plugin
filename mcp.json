@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "local-mcp": {
+      "type": "stdio",
+      "command": "/bin/sh",
+      "args": ["${PLUGIN_ROOT}/scripts/start-lmcp.sh"],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "LMCP_DISABLE_TELEMETRY": "1"
+      }
+    }
+  }
+}
+
