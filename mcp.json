@@ -3,8 +3,8 @@
   "mcpServers": {
     "local-mcp": {
       "type": "stdio",
-      "command": "/bin/sh",
-      "args": ["${PLUGIN_ROOT}/scripts/start-lmcp.sh"],
+      "command": "./scripts/start-lmcp.sh",
+      "args": [],
       "cwd": "${PLUGIN_ROOT}",
       "env": {
         "LMCP_DISABLE_TELEMETRY": "1"
@@ -12,4 +12,3 @@
     }
   }
 }
-
