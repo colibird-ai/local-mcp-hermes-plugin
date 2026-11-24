@@ -1,7 +1,7 @@
 # LMCP for Hermes
 
 Connect Hermes to [LMCP](https://local-mcp.com), an app that turns the apps you
-already use into MCP tools (200+ tools): Apple Mail, Microsoft 365 mail,
+already use into MCP tools (240+ tools): Apple Mail, Microsoft 365 mail,
 Calendar, Teams, Slack, OneDrive, Office files, a browser you log into once, and
 the terminal. This plugin currently starts the macOS version of LMCP. LMCP also runs on
 Windows, but this plugin does not support it yet.
