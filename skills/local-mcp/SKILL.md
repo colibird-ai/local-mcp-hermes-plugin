@@ -6,7 +6,7 @@ description: "Use LMCP's MCP tools in Hermes to read and act on the user's Mac a
 # LMCP (Local MCP)
 
 Use the tools on the `local-mcp` MCP server, named `mcp__local-mcp__<tool>` in
-Hermes. LMCP exposes many tools (200+); inspect the tool descriptions
+Hermes. LMCP exposes many tools (240+); inspect the tool descriptions
 instead of assuming a fixed list. This plugin only starts an LMCP app the user
 installed separately; it does not install LMCP or connect any account.
 
