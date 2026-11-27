@@ -61,8 +61,10 @@ client.
   calls those tools.
 - WhatsApp access uses an unofficial linked-device client; WhatsApp may
   restrict accounts that use unofficial clients.
-- Web AIs (claude.ai, ChatGPT) reach LMCP through an optional cloud connector,
-  off by default. Hermes runs locally and does not need it.
+- Web AIs (claude.ai, ChatGPT) reach LMCP through a cloud connector. It is on
+  by default on Mac and off on Windows, and approving a web AI turns it on. It
+  is turned off with "Cloud access", under "Web AI clients" in the LMCP menu.
+  Hermes runs locally and does not need it.
 - Whatever the agent reads is sent to the model provider Hermes is configured
   to use.
 - The LMCP app updates itself, outside Hermes and this plugin.
